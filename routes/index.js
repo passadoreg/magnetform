@@ -3,7 +3,7 @@ const express = require('express');
 const fs = require('fs');
 //const readline = require('readline');
 const router = express.Router();
-const magnetFile = 'sample.txt';
+const magnetFile = '/usr/local/transmissionrss/magnet.file';
 var magnetFileData = [];
 
 function readMagnet() {
